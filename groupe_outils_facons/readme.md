@@ -31,10 +31,8 @@ La possibilité de personnaliser les icones et les symbologies des différents t
 Des interfaces ont été développées pour permettre l'affichage dans différents langages.
 La bibliothèque a été développé en R par la société RStudio, en python la bibliothèque Follium, ce qui permet également de réaliser des cartes.
 
-
-# MapServer 
 ![](https://upload.wikimedia.org/wikipedia/commons/f/fe/MapServer.png)
-
+---
 [MapServer](https://mapserver.org/) est l'un des premier serveur cartographique apparu sur le marché (1994). A la base il s'agit d'un projet open source (projet ForNet) porté par [l'université du Minnesota](https://twin-cities.umn.edu/) en collaboration avec la [NASA](https://www.nasa.gov/). Aujourd'hui, MapServer est devenu un projet de [l'OSGeo](https://www.osgeo.org/) et fait parti des serveurs carto les plus performants sur le marché en propose de nombreuses fonctionnalités. Projet totalement open source et développé en C++, il permet de créer des images de cartes géographiques, qui permettent d'orienter les utilisateurs vers du contenu web.
 
 MapServer peut être utilisé principalement de deux manières:
@@ -87,10 +85,8 @@ Standards de [l'Open Geospatial Consortium](https://www.ogc.org/) (OGC) prit en 
 - Geography Marhup languge (GML)
 - Sensor Observation Service (SOS)
 
-# Geoserveur
-
 ![](Logo_Geoserver.png)
-
+---
 ## Role
 
 Serveur
@@ -102,7 +98,6 @@ Serveur
 ## Site web
 
 [Site internet](http://geoserver.org/)
-
 
 
 ## Description
@@ -136,10 +131,10 @@ Il est possible de styliser les cartes en utilisant la librairie de style Mapbox
 
   ![](/ressources/openlayer.png)
 
-#### Description 
+## Description 
 OpenLayers est une bibliothèque JavaScript permettant d'afficher des données cartographiques dans les navigateurs Web sous forme de cartes glissantes
 
-#### Caracteristiques : fonctionnement
+## Caracteristiques : fonctionnement
 
 Le principe est simple, pour afficher une carte avec Open Layer, il faut les éléments suivants :
 
@@ -148,7 +143,7 @@ Un appel à la librairie Open Layer (pour en utiliser les fonctionnalités).
 Un fichier de configuration (pour personnaliser la carte).
 Un fichier CSS de mise en forme de la carte.
 
-#### Les fonctionnalités
+## Les fonctionnalités
 
 - Affichage de carte
 - Gestion des interactions
@@ -157,7 +152,7 @@ Un fichier CSS de mise en forme de la carte.
 - Gestion des couches
 
 
-#### OpenLayers prend en charge 
+## OpenLayers prend en charge 
 
 - kML 
 - GEOJSON 
@@ -166,21 +161,20 @@ Un fichier CSS de mise en forme de la carte.
 - vecteur
 - raster 
 
-####  Utilisation OpenLayers cote serveur :
+##  Utilisation OpenLayers cote serveur :
 
 - Generation des tuiles cartographiques
 - Integration avec des services web
 - Stockage et gestion des données géographiques
 
-####  Utilisation OpenLayers cote client :
+##  Utilisation OpenLayers cote client :
 
 - Intégration dans une page web
 - personnalisation de la carte
 - gestion des interactions 
 
-# PYGEOAPI  
 ![](/ressources/pygeoapi_logo.png)
-
+---
 ###### PYGEOAPI ([Github](https://github.com/geopython/pygeoapi?source=post_page-----5f52baba731f--------------------------------)) est un serveur Python implémentant le standard OGC API pour la diffusion de données géospatiales.
 
 
